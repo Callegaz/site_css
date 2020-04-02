@@ -1,0 +1,57 @@
+/* geral */
+
+body {
+  background-color: whitesmoke;
+}
+
+/* usando classe */
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* index */
+.perfil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* sobre */
+
+.imgHobbie {
+  align-self: left;
+  width: 390rem;
+  height: auto;
+}
+
+/* usando nome */
+
+p {
+  margin-left: 1em;
+}
+
+/* contato */
+.email {
+  width: 2rem;
+  height: auto;
+}
+.inputs {
+  text-align: center;
+}
+
+/* usando id */
+#botao {
+  margin-top: 2em;
+  background-color: #000;
+  border: 1px;
+  color: #a9a9a9;
+  border-radius: 10px;
+  height: 2em;
+  width: 6em;
+}
+#botao:hover {
+  margin-top: 2em;
+  background-color: #a9a9a9;
+  color: #000;
+}
